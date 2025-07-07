@@ -1,0 +1,16 @@
+src/App.cssbody {
+  background: #111;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+}
+.bg-gray-900 { background: #20232a; }
+.bg-gray-800 { background: #282c34; }
+.text-cyan-400 { color: #22d3ee; }
+.text-cyan-300 { color: #67e8f9; }
+.rounded-xl { border-radius: 1rem; }
+.shadow-lg { box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
+.p-6 { padding: 1.5rem; }
+.mt-8 { margin-top: 2rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.max-w-3xl { max-width: 48rem; }
+.space-y-8 > * + * { margin-top: 2rem; }

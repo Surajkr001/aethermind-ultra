@@ -1,0 +1,20 @@
+{
+  "name": "aethermind-ultra",
+  "version": "1.0.0",
+  "description": "Autonomous, browser-based, self-healing AI assistant using best free LLMs (r1, TinyLlama, DistilGPT2, etc.)—deployable on GitHub Pages.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@xenova/transformers": "^2.18.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "gh-pages": "^6.0.0"
+  }
+}
